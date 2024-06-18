@@ -1,0 +1,22 @@
+.chart-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px; 
+    height: 300px; 
+    border: 1px solid #e2e2e2;
+    border-radius: 8px; 
+    padding: 5px 16px 16px 16px;
+    background-color: #ffffff; 
+    margin: auto;
+  }
+  
+  .chart-canvas {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .chart-title {
+    font-size: 13px;
+  }
+  

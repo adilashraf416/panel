@@ -1,0 +1,35 @@
+.table-card {
+    width: 585px; 
+    height: 290px; 
+    overflow-y: auto; 
+    background-color: #ffffff; 
+    padding: 16px;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+  }
+  
+  .table-card table {
+    margin-top: 15px;
+    background-color: #ffffff;
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  
+  .table-card th, .table-card td {
+    border: 1px solid #ddd; 
+    padding: 8px; 
+    text-align: center; 
+  }
+
+  .table-card table tr {
+    height: 10px !important;
+  }
+  
+  .table-card th {
+    font-weight: bold;
+    background-color: #f0f0f0; 
+  }
+
+  .table-title {
+      font-size: 13px;
+  }

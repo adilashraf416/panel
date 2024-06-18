@@ -1,0 +1,10 @@
+<div class="card-container">
+  <app-card
+    *ngFor="let card of cards"
+    [icon]="card.icon"
+    [name]="card.name"
+    [stats]="card.stats"
+    [color]="card.color"
+  >
+  </app-card>
+</div>

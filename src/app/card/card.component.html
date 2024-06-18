@@ -1,0 +1,13 @@
+<div class="card" [style.border-color]="color">
+  <div class="left-half">
+    <div class="card-icon">
+      <mat-icon svgIcon="{{ icon }}" class="icon"></mat-icon>
+    </div>
+  </div>
+  <div class="right-half" [style.background-color]="color">
+    <div class="card-content">
+      <div class="card-name">{{ name }}</div>
+      <div class="card-stats">{{ stats }}</div>
+    </div>
+  </div>
+</div>
